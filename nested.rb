@@ -96,11 +96,9 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
-     binding.pry
      programmer_hash[:alan_kay][:known_for] = alans_new_info
-     binding.pry 
 end
-changing_alan
+
 def adding_to_dennis
 	programmer_hash = 
  		{
@@ -117,5 +115,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+  binding.pry 
   programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+  binding.pry 
 end
+adding_to_dennis
