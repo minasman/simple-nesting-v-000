@@ -77,8 +77,9 @@ def adding_matz
      }
      
   programmer_hash["yukihiro_matsumoto"] = {known_for: "Ruby", languages: ["LISP", "C"]}
+  binding.pry 
 end
-
+adding_matz
 def changing_alan
 	programmer_hash = 
  		{
